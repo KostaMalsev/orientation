@@ -22,6 +22,9 @@ scene.add(CameraWrapper);
 
 //Add laser for pointing to objects
 let laser = new THREE.Object3D();
+laser.rotation.x=0;
+laser.rotation.y=0;
+laser.rotation.z=0;
 camera.add(laser);
 
 //Set up the arrow and add it to the document:
