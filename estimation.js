@@ -32,9 +32,9 @@ function getAspect(vrpos) {
 
   //"camera" is global variable 
   //which defines the current point view of the player
- // camera.updateMatrix();
+  camera.updateMatrix();
   
- // camera.updateMatrixWorld();
+  camera.updateMatrixWorld();
   
   // 3D point to check
   var pos = new THREE.Vector3(vrpos.x, vrpos.y, vrpos.z);
