@@ -53,7 +53,11 @@ function SetInitRotation(e)
             
             RotHelper.Initial_cmpss_val = cmpss180;
             
-            RotHelper.CmpssEventCounter=0;
+           // RotHelper.CmpssEventCounter=0;
+            
+            camera.updateMatrix();
+  
+            camera.updateMatrixWorld();
             
         }else{
           
