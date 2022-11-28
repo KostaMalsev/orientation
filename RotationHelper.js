@@ -55,9 +55,9 @@ function SetInitRotation(e)
             
            // RotHelper.CmpssEventCounter=0;
             
-            CameraWrapper.camera.updateMatrix();
+            //CameraWrapper.camera.updateMatrix();
   
-            CameraWrapper.camera.updateMatrixWorld();
+            //CameraWrapper.camera.updateMatrixWorld();
             
         }else{
           
